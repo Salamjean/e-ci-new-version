@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('profile_picture')->nullable();
             $table->string('commune');
             $table->string('communeM');
-            $table->foreignId('etat_civil_id')->nullable()->constrained('etat')->onDelete('set null');
+            $table->foreignId('etat_civil_id')->nullable()->constrained('etat_civils')->onDelete('set null');
             $table->string('cas_urgence')->nullable();
             $table->dateTime('email_verified_at')->nullable();
             $table->timestamp('archived_at')->nullable();
