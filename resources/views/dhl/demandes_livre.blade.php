@@ -1,9 +1,9 @@
-@extends('poste.layouts.template')
+@extends('dhl.layouts.template')
 
 @section('content')
 <style>
     :root {
-        --primary-color: #06634e;
+        --primary-color: #d40511;
         --secondary-color: #f9cf03;
         --light-color: #f8f9fa;
     }
